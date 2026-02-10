@@ -1,0 +1,27 @@
+{
+	"name": "backend-tutorial",
+	"version": "1.0.0",
+	"description": "backend-tutorial",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node src/index.js",
+		"dev": "nodemon src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SAMUEL-UME/backend-recap.git"
+	},
+	"author": "Samuel",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/SAMUEL-UME/backend-recap/issues"
+	},
+	"homepage": "https://github.com/SAMUEL-UME/backend-recap#readme",
+	"dependencies": {
+		"dotenv": "^17.2.4",
+		"express": "^5.2.1",
+		"mongoose": "^9.2.0",
+		"nodemon": "^3.1.11"
+	}
+}
